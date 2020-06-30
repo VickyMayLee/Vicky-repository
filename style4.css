@@ -1,0 +1,45 @@
+.pagegoogle
+{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+
+  
+}
+
+header
+{ 
+  align-self : flex-end;  
+}
+
+section
+{ 
+  align-self : center;
+  text-align: center; 
+  flex: 1;
+}
+
+footer
+{ 
+  flex-shrink: 0;
+  flex-direction: row;
+}
+
+ul li
+{ 
+  list-style-type: none;
+  display: inline-block;
+  margin: 0.25rem 0.75rem;
+
+}
+.listebasdroite
+{ 
+  margin: auto;
+  align-items : flex-end;  
+ 
+}
+
+
+
+
